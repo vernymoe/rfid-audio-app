@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RFID Audio App</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4caf50;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    header img {
+      width: 60px;
+      height: auto;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .logo {
+      margin: 30px auto 10px;
+      width: 150px;
+    }
+
+    main {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .description {
+      font-size: 1.2em;
+      margin-bottom: 2rem;
+    }
+
+    .button {
+      background-color: #4caf50;
+      color: white;
+      padding: 1rem 2rem;
+      font-size: 1.2em;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #45a049;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      font-size: 0.9em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="escudo_liceo.png" alt="Escudo del Liceo San Rafael" />
+    <h1>RFID Audio App</h1>
+  </header>
+
+  <main>
+    <img src="rfid_logo.png" alt="Logo RFID" class="logo" />
+    <p class="description">
+      Aplicación para grabar y reproducir audios asociados a tarjetas RFID, diseñada para facilitar la identificación de objetos, especialmente útil para personas con discapacidad visual.
+    </p>
+    <a class="button" href="RFIDAudioApp.apk" download>📥 Descargar APK</a>
+    <p style="margin-top: 1.5rem; font-size: 0.95em;">Requiere teléfono Android con sensor NFC.</p>
+  </main>
+
+  <footer>
+    © 2025 Liceo San Rafael de Alajuela
+  </footer>
+</body>
+</html>
+
